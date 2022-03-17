@@ -27,8 +27,8 @@
                 </TransformGroup>
             </TextBox.RenderTransform> название
         </TextBox>
-        <TextBox Grid.Column="0" Margin="10,145,181,248" TextChanged="TextBox_TextChanged_1" >Кол страниц</TextBox>
-        <TextBox Grid.Column="0" Margin="14,256,216,138" TextChanged="TextBox_TextChanged_2">Цена</TextBox>
+        <TextBox Grid.Column="0" Margin="10,145,161,248" TextChanged="TextBox_TextChanged_1" >Кол страниц</TextBox>
+        <TextBox Grid.Column="0" Margin="14,256,196,138" TextChanged="TextBox_TextChanged_2">Цена</TextBox>
         <TextBlock x:Name="Sec" Grid.Column="1" Background="Bisque" Margin="47,103,47,294"/>
         <Button x:Name="Pat1" Grid.Column="2" Content="Увеличить цену книги в 2 раза" Margin="4,201,4,186" Click="pat_Click"  />
         <TextBlock x:Name="Pat" Grid.Column="2" Background="Bisque" Margin="35,103,35,290" />

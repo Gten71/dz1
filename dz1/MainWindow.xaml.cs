@@ -33,7 +33,7 @@ namespace dz1
         {
             InitializeComponent();
         }
-
+        //abyu
 
 
 
@@ -41,21 +41,21 @@ namespace dz1
         {
             if (Time1.Text != "")
 
-                gg.s = Time1.Text;//chas
+                gg.s = Time1.Text;//name
         }
 
         private void Time_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (Time.Text != "")
 
-                gg.d = Convert.ToInt32(Time.Text);//min
+                gg.d = Convert.ToInt32(Time.Text);//kol stranic
         }
 
         private void Time2_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (Time2.Text != "")
 
-                gg.z = Convert.ToInt32(Time2.Text);//sec
+                gg.z = Convert.ToInt32(Time2.Text);//cena
         }
         private void vsec_Click(object sender, RoutedEventArgs e)
         {
